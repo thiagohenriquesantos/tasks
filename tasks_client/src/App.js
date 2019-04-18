@@ -2,16 +2,10 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
-   import { faCheckCircle, faTrashAlt } from '@fortawesome/free-regular-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
 
-   library.add(faCheckCircle, faTrashAlt)
-   ....
-
-   class App extends Component {
-     render() {
-       ...
-      }
-   }
+library.add(faStroopwafel)
 
 class App extends Component {
   render() {
