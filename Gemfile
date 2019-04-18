@@ -40,6 +40,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+# criando a api para que ela possa ser acessada via chamadas javascript do Browser, ou seja, habilitar e configuar o CORS.
+gem 'rack-cors'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
